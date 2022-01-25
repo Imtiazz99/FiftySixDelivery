@@ -1,0 +1,98 @@
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    padding: 25px;
+}
+
+header ul li a {
+    color: #FFF;
+}
+
+ul ul {
+    position: static;
+    display: none;
+}
+
+.active {
+    color: #E0C180;
+}
+
+.sidebar-cust {
+    height: calc(78% - 60px);
+    width: 270px;
+    position: fixed;
+    left: 50;
+    top: 120px;
+    z-index: 100;
+    background: #fff;
+    color: var(--text-grey);
+    overflow-y: auto;
+    box-shadow: 0 3px 2px -2px rgb(131, 128, 128);
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0rem 1rem;
+}
+
+.siderbar-menu {
+    padding: 1rem;
+}
+
+.sidebar-cust li {
+    text-align: left;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar-cust .active {
+    color: #E0C180;
+}
+
+.sidebar-cust a {
+    color: var(--text-grey);
+    font-size: .9rem;
+}
+
+.sidebar-cust ul li a {
+    position: relative;
+}
+
+.sidebar-cust ul ul {
+    position: static;
+    display: none;
+}
+
+.sidebar-cust ul .feat-show.show{
+    display: block;
+}
+
+.sidebar-cust ul ul li a{
+   
+   text-align: left;
+   padding-left: 40px;
+}
+
+.sidebar-cust ul li a span{
+   position: absolute;
+   top: 3px;
+   left: 110px;
+}
+
+.sidebar-cust a span:last-child {
+    padding-left: .6rem;
+}
+
+.sidebar-user {
+    padding-top: 30px;
+    text-align: center;
+}

@@ -1,0 +1,235 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Dec 2020, 12:25:48 am
+    Author     : Aina Syazana
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --main-color: #07776E;
+    --text-grey: #414141;
+    --background: #FAFAFA;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+/*kalau perlu guna*/
+.sidebar {
+    height: calc(100% - 60px);
+    width: 270px;
+    position: fixed;
+    left: 0;
+    top: 78px;
+    z-index: 100;
+    background: #fff;
+    color: var(--text-grey);
+    overflow-y: auto;
+    box-shadow: -5px 0 15px 0 rgb(54, 54, 54);
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0rem 1rem;
+}
+
+.siderbar-menu {
+    padding: 1rem;
+}
+
+.sidebar li {
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.sidebar a {
+    color: var(--text-grey);
+    font-size: .9rem;
+}
+
+.sidebar a span:last-child {
+    padding-left: .6rem;
+}
+
+.sidebar-user {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/*kalau perlu guna
+
+img {
+    border-radius: 50%;
+    height: 74px;
+    width: 72px;
+}
+*/
+
+.user-image {
+    padding-top: 20px;
+}
+
+.main-content {
+    position: relative;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/*mmg perlu guna*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background: var(--main-color);
+    height: 78px;
+    padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+main {
+    margin-top: 78px;
+    padding: 1rem;
+}
+
+/*utk webiste name*/
+h5{
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+
+.website-name {
+    padding-left: 55px;
+}
+
+/*utk current page*/
+.active {
+    color: #E0C180;
+}
+
+
+/*smua button use this*/
+.button {
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 55px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.btn1 {
+    background-color: #8DA58D;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn1:hover { 
+    background: #383
+ }
+ 
+ a:hover {
+  color: hotpink;
+}
+ 
+.btnCancel {
+    background-color: #959595;
+}
+
+.btnDelete {
+    background-color: #FF0000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 25px;
+}
+
+ul li a {
+    color: #FFF;
+}
+
+.login-box {
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 800px;
+    background-color: #EAD3A7;
+    margin-top: 150px;
+}
+
+.login-box .borang-header {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 62px;
+}
+
+.login-box .borang-content {
+    font-size: 13px;
+    font-weight: lighter;
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 520px;
+}
+
+.login-box .sub {
+    font-size: 13px;
+}
+
+.borang-content p{
+    font-size: 11px;
+}
+
+/* login */
+.login-box input[type=text], input[type=password] , input[type=email] {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+}
+
+
+img {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+
+
+
+
+

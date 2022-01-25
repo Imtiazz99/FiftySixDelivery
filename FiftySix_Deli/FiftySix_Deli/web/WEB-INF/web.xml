@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>customerController</servlet-name>
+        <servlet-class>henshin.controller.customerController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>riderController</servlet-name>
+        <servlet-class>henshin.controller.riderController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>menuController</servlet-name>
+        <servlet-class>henshin.controller.menuController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>paymentController</servlet-name>
+        <servlet-class>henshin.controller.paymentController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>cartController</servlet-name>
+        <servlet-class>henshin.controller.cartController</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>orderCustController</servlet-name>
+        <servlet-class>henshin.controller.orderCustController</servlet-class>
+    </servlet> <servlet>
+        <servlet-name>assignRiderController</servlet-name>
+        <servlet-class>henshin.controller.assignRiderController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>customerRegisterServlet</servlet-name>
+        <servlet-class>henshin.controller.customerRegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>customerController</servlet-name>
+        <url-pattern>/customerController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>riderController</servlet-name>
+        <url-pattern>/riderController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>assignRiderController</servlet-name>
+        <url-pattern>/assignRiderController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>orderCustController</servlet-name>
+        <url-pattern>/orderCustController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>menuController</servlet-name>
+        <url-pattern>/menuController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>paymentController</servlet-name>
+        <url-pattern>/paymentController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cartController</servlet-name>
+        <url-pattern>/cartController</url-pattern>
+    </servlet-mapping>
+<servlet-mapping>
+        <servlet-name>customerRegisterServlet</servlet-name>
+        <url-pattern>/customerRegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

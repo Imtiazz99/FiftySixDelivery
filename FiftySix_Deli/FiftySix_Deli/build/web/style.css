@@ -1,0 +1,223 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Dec 2020, 12:25:48 am
+    Author     : Aina Syazana
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --main-color: #07776E;
+    --text-grey: #414141;
+    --background: #FAFAFA;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+/*kalau perlu guna*/
+.sidebar {
+    height: calc(100% - 60px);
+    width: 270px;
+    position: fixed;
+    left: 0;
+    top: 78px;
+    z-index: 100;
+    background: #fff;
+    color: var(--text-grey);
+    overflow-y: auto;
+    box-shadow: -5px 0 15px 0 rgb(54, 54, 54);
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0rem 1rem;
+}
+
+.siderbar-menu {
+    padding: 1rem;
+}
+
+.sidebar li {
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.sidebar a {
+    color: var(--text-grey);
+    font-size: .9rem;
+}
+
+.sidebar a span:last-child {
+    padding-left: .6rem;
+}
+
+.sidebar-user {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/*kalau perlu guna*/
+
+img {
+    border-radius: 50%;
+    height: 74px;
+    width: 72px;
+}
+
+.user-image {
+    padding-top: 20px;
+}
+
+.main-content {
+    position: relative;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/*mmg perlu guna*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background: var(--main-color);
+    height: 78px;
+    padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+main {
+    margin-top: 78px;
+    padding: 1rem;
+}
+
+/*utk webiste name*/
+h5{
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+
+.website-name {
+    padding-left: 55px;
+}
+
+/*utk current page*/
+.active {
+    color: #E0C180;
+}
+
+/*divider*/
+hr {
+    border-top: 1px solid #DBD5D5;
+}
+
+/*smua button use this*/
+.button {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 37px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 5px;
+}
+
+.btn1 {
+    background-color: #A64AC9;
+    position: fixed;
+    bottom: 25px;
+    right: 70px;
+    padding-left: 50;
+    padding-right: 50px;
+}
+
+.btnCancel {
+    background-color: #959595;
+}
+
+.btnDelete {
+    background-color: #FF0000;
+}
+/*
+.sorting {
+    left: 500;
+    border-radius: 5px;
+    width: 700px;
+    height: 76px;
+    background-color: #FFF;
+    box-shadow: 0 4px 2px -2px rgb(131, 128, 128);
+    position: fixed;
+    top: 72;
+    left: 460;
+    right: 500;
+    display: inline-block;
+}
+
+.sorting .quizTot {
+    text-align: center;
+    height: 76px;
+    width: 156px;
+    padding: 30px;
+    border-right: 1px solid  #DBD5D5;
+    float: left;
+}
+
+.sorting .sortBy {
+    width: 545px;
+    height: 76px;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px;
+    margin-left: 146px;
+}
+
+.sorting .sortBy p {
+    display:inline;
+    padding: 10px;
+}
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 25px;
+}
+
+a {
+    color: #FFF;
+}
+
+
+
+
+
+

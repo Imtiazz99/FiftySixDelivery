@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Dec 2020, 12:25:48 am
+    Author     : Aina Syazana
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --main-color: #07776E;
+    --text-grey: #414141;
+    --background: #FAFAFA;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.main-content {
+    position: relative;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/*mmg perlu guna*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background: var(--main-color);
+    height: 78px;
+    padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+main {
+    margin-top: 78px;
+    padding: 1rem;
+}
+
+/*utk webiste name*/
+h5{
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+
+.website-name {
+    padding-left: 55px;
+}
+
+/*utk current page*/
+.active {
+    color: #E0C180;
+}
+
+/*smua button use this*/
+.button {
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 55px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 12px;
+}
+.btn1:hover { 
+    background: #383
+ }
+.btn1 {
+    background-color: #8DA58D;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 65px;
+}
+
+.btnCancel {
+    background-color: #959595;
+}
+
+.btnDelete {
+    background-color: #FF0000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 25px;
+}
+
+ul li a {
+    color: #FFF;
+}
+
+.signup-box {
+    display: block;
+    margin: 110px auto;
+    max-height: 100%;
+    width: 520px;
+    background-color: #EAD3A7;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 530px;
+    margin-top: 150px;
+}
+
+.signup-box .borang-header {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.signup-box .sub {
+    font-size: 13px;
+    padding-left: 170px;
+}
+
+.signup-box .borang-content {
+    font-size: 13px;
+    font-weight: lighter;
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 150px;
+}
+
+.formgap {
+    padding: 5px;
+}
+
+.borang-content p{
+    font-size: 11px;
+    padding-left: 20px;
+}
+
+.signup-box input[type=text],input[type=password],input[type=email] {
+    border-radius: 5px;
+    border: none;
+    padding: 2px 10px;
+    width: 215px;
+}
+
+
+
+
+
+
+
+
